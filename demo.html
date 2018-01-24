@@ -42,7 +42,15 @@ Upload your profile:</label>
 <option class="ui-widget-content" value="telerik">TelerikStudio</option>
 <option class="ui-widget-content" value="codedui">CodedUI</option>
 </select>
-<div class="linesubmit" style="text-align: center;"><input class="commit" name="commit" type="submit" value="Submit!" /></div>
+
+<div class="linesubmit" style="text-align: center;">
+<input class="commit" name="commit" type="submit" onclick="MySubmit()"></input>
+</div>
+<script>
+function MySubmit() {
+    alert("Registration Done!");
+}
+</script>
 Note: Please make sure your details are correct before submitting form!
 <div style="text-align: center;"><a href="http://www.qavalidation.com/seleniumtutorial" target="_blank" rel="noopener noreferrer">Selenium Tutorial!</a>
 <a href="http://qavalidation.com/category/Softwaretesting/" target="_blank" rel="noopener noreferrer">Testing basics!</a></div>
