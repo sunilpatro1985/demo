@@ -24,7 +24,7 @@
 <label for="alerts">Different Types of ALERTS!</label><br/><br/><br/>
 </span>
 The alert dialog box is used to display an alert message  
-<input class="btn" name="commit" type="button" value="Submit" onclick="MySAlert()"></input><br/><br/>
+<input class="btn" name="commit" id="commit" type="button" value="Submit" onclick="MySAlert()"></input><br/><br/>
 <script>
 function MySAlert() {
     alert("Have a nice day!!!");
@@ -32,7 +32,7 @@ function MySAlert() {
 </script>
 
 The prompt dialog box allows the user to enter information
-<input class="btn" type="button" value="PromptMe"onclick="myFunctionPrompt()"></input><br/><br/>
+<input class="btn" type="button" id="prompt" value="PromptMe"onclick="myFunctionPrompt()"></input><br/><br/>
 <script>
 function myFunctionPrompt() {
     var person = prompt("Please enter your name", "");
@@ -44,7 +44,7 @@ function myFunctionPrompt() {
 </script>
 
 The confirm dialog box returns the user's selection.
-<input class="btn" type="button" value="Confirm" onclick="myFunctionConfirm()" /><br/><br/>
+<input class="btn" type="button" id="confirm" value="Confirm" onclick="myFunctionConfirm()" /><br/><br/>
 
 <script>
 function myFunctionConfirm() {
